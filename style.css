@@ -1,0 +1,21 @@
+.jumbotron {
+    padding-top: 7rem;
+    background-color: #f9e2ff;
+}
+
+#projects {
+    background-color: #f9e2ff;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32;
+}
+
+.viga { 
+    font-family: Viga;
+}
