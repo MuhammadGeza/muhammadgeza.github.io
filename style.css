@@ -1,21 +1,21 @@
 .jumbotron {
-    padding-top: 7rem;
-    background-color: #f9e2ff;
+  padding-top: 7rem;
+  background-color: #b4e6cf;
 }
 
 #projects {
-    background-color: #f9e2ff;
+  background-color: #b4e6cf;
 }
 
 section {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .navbar-brand {
-    font-family: Viga;
-    font-size: 32;
+  font-family: Viga;
+  font-size: 32;
 }
 
-.viga { 
-    font-family: Viga;
+.viga {
+  font-family: Viga;
 }
