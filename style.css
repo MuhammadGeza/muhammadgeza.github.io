@@ -5,6 +5,10 @@
   margin-top: 0%;
 }
 
+.body {
+  padding-right: 0%;
+}
+
 .wrapper .icon {
   margin: 0 20px;
   text-align: center;
@@ -39,7 +43,7 @@
 /* For Mobile */
 @media screen and (max-width: 540px) {
   .wrapper .icon {
-    margin: 0 12px;
+    margin: 6px 3.2px;
     text-align: center;
     cursor: pointer;
     display: flex;
