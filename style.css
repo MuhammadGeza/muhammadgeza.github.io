@@ -170,8 +170,57 @@ html {
   background-color: #d3d3d3;
 }
 
+#projects .single_post {
+  display: none;
+  padding: 20px 20px;
+  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  transition: all linear 0.3s;
+}
+
+#projects .single_post:hover {
+  transform: translateY(-5px);
+}
+
+#projects .single_post img {
+  border-radius: 5px;
+}
+
+#projects .single_post p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+  line-height: 26px;
+}
+
+#projects .load_more {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#projects .load_more .load {
+  padding: 8px 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+
+#projects .load_more .load:hover {
+  transform: translateY(-5px);
+}
+
 section {
   padding-top: 5rem;
+}
+
+.card {
+  float: left;
+  width: 100%;
+  padding: 0.75rem;
+  border: 0;
+  box-shadow: 0px 0px 8px 0.3px rgba(0, 0, 0, 1);
 }
 
 .navbar-brand {
