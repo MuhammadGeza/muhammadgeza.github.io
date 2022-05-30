@@ -188,6 +188,13 @@ section {
 }
 
 /* Footer For Mobile */
+@media screen and (max-width: 768px) {
+  footer {
+    font-size: medium;
+  }
+}
+
+/* Footer For Mobile */
 @media screen and (max-width: 480px) {
   footer {
     font-size: small;
