@@ -163,11 +163,11 @@ html {
 /* Others */
 .jumbotron {
   padding-top: 7rem;
-  background-color: #b4e6cf;
+  background-color: #d3d3d3;
 }
 
 #projects {
-  background-color: #b4e6cf;
+  background-color: #d3d3d3;
 }
 
 section {
@@ -185,5 +185,12 @@ section {
 
 .padding-bottom-8rem {
   padding-bottom: 8rem;
+}
+
+/* Footer For Mobile */
+@media screen and (max-width: 480px) {
+  footer {
+    font-size: small;
+  }
 }
 /*  End Others */
