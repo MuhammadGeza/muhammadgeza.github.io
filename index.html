@@ -15,7 +15,7 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
 
-    <!-- CSS only -->
+    <!-- Bootsrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 
     <!-- Fonts Awesome Icons -->
@@ -23,6 +23,12 @@
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Fancybox CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
@@ -95,11 +101,15 @@
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
+    <!-- End Navbar -->
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/geza.jpg" alt="Muhammad Geza" width="200" class="rounded-circle img-thumbnail" />
+      <div class="item-fancybox">
+        <a href="img/geza.jpg" class="fancybox" data-fancybox="gallery1">
+          <img src="img/geza.jpg" alt="Muhammad Geza" width="200" class="rounded-circle img-thumbnail" />
+        </a>
+      </div>
       <h1 class="display-4 viga">Muhammad Geza Ruly Syahputra</h1>
       <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -110,7 +120,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Jumbotron -->
+    <!-- End Jumbotron -->
 
     <!-- About -->
     <section id="about">
@@ -137,7 +147,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir About -->
+    <!-- End About -->
 
     <!-- Projects -->
     <section id="projects">
@@ -151,7 +161,9 @@
           <div class="col-lg-4 col-md-6 mb-4 d-flex">
             <div class="card single_post" data-aos="flip-left" data-aos-duration="500">
               <div class="inner">
-                <img src="img/projects/iris.jpg" height="215" class="card-img-top" alt="Project1" />
+                <a href="img/projects/iris.jpg" data-fancybox="Project Gallery 1">
+                  <img src="img/projects/iris.jpg" height="215" class="card-img-top" alt="Project1" />
+                </a>
               </div>
               <div class="card-body mb-5">
                 <h5 class="card-title text-center">Card title</h5>
@@ -162,10 +174,13 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 mb-4 d-flex">
             <div class="card single_post" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <div class="inner">
-                <img src="img/projects/2.jpg" height="215" class="card-img-top" alt="Project2" />
+                <a href="img/projects/2.jpg" data-fancybox="Project Gallery 2">
+                  <img src="img/projects/2.jpg" height="215" class="card-img-top" alt="Project2" />
+                </a>
               </div>
               <div class="card-body mb-5">
                 <h5 class="card-title text-center">Card title</h5>
@@ -176,10 +191,13 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 mb-4 d-flex">
             <div class="card single_post" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
               <div class="inner">
-                <img src="img/projects/3.jpg" height="215" class="card-img-top" alt="Project3" />
+                <a href="img/projects/3.jpg" data-fancybox="Project Gallery 3">
+                  <img src="img/projects/3.jpg" height="215" class="card-img-top" alt="Project3" />
+                </a>
               </div>
               <div class="card-body mb-5">
                 <h5 class="card-title text-center">Card title</h5>
@@ -190,10 +208,13 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 mb-4 d-flex">
             <div class="card single_post" data-aos="flip-left" data-aos-duration="500">
               <div class="inner">
-                <img src="img/projects/4.jpg" height="215" class="card-img-top" alt="Project4" />
+                <a href="img/projects/4.jpg" data-fancybox="Project Gallery 4">
+                  <img src="img/projects/4.jpg" height="215" class="card-img-top" alt="Project4" />
+                </a>
               </div>
               <div class="card-body mb-5">
                 <h5 class="card-title text-center">Card title</h5>
@@ -204,10 +225,13 @@
               </div>
             </div>
           </div>
+
           <div class="col-lg-4 col-md-6 mb-4 d-flex">
             <div class="card single_post" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
               <div class="inner">
-                <img src="img/projects/5.jpg" height="215" class="card-img-top" alt="Project5" />
+                <a href="img/projects/5.jpg" data-fancybox="Project Gallery 5">
+                  <img src="img/projects/5.jpg" height="215" class="card-img-top" alt="Project5" />
+                </a>
               </div>
               <div class="card-body mb-5">
                 <h5 class="card-title text-center">Card title</h5>
@@ -222,7 +246,7 @@
 
         <!-- Load More -->
         <!-- Inspired by https://github.com/codermahidul/blog-load-more -->
-        <div class="row text-center mt-3">
+        <div class="row text-center">
           <div class="col-12" data-aos="fade-down" data-aos-duration="500">
             <div class="load_more">
               <button class="load btn btn-danger">Load More</button>
@@ -230,6 +254,7 @@
           </div>
         </div>
       </div>
+
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -238,7 +263,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Projects -->
+    <!-- End Projects -->
 
     <!-- Contact -->
     <section id="contact">
@@ -258,6 +283,7 @@
                 </div>
               </a>
             </div>
+
             <div class="col-2">
               <a class="color-black" href="https://www.linkedin.com/in/muhammad-geza-ruly-syahputra-091393240/" target="_blank">
                 <div class="icon linkedin-in color-black">
@@ -266,6 +292,7 @@
                 </div>
               </a>
             </div>
+
             <div class="col-2">
               <a class="color-black" href="https://www.instagram.com/muh_geza/" target="_blank">
                 <div class="icon instagram color-black">
@@ -274,6 +301,7 @@
                 </div>
               </a>
             </div>
+
             <div class="col-2">
               <a class="color-black" href="mailto:gezaruly998@gmail.com" target="_blank">
                 <div class="icon envelope color-black">
@@ -282,6 +310,7 @@
                 </div>
               </a>
             </div>
+
             <div class="col-2">
               <a class="color-black" href="https://github.com/MuhammadGeza" target="_blank">
                 <div class="icon github color-black">
@@ -301,34 +330,36 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Contact -->
+    <!-- End Contact -->
+
+    <!-- Gallery -->
+    <section id="galery"></section>
+    <!-- End Gallery -->
 
     <!-- Footer -->
     <footer class="text-white text-center pb-4" style="background-color: #367055">
       <p class="viga">Created with <i class="bi bi-suit-heart-fill text-danger"></i> by Muhammad Geza Ruly Syahputra</p>
     </footer>
-    <!-- Akhir Footer -->
-
-    <!-- Jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-    <!--  -->
-    <script>
-      $('.single_post').slice(0, 3).show();
-      $('.load').on('click', function () {
-        $('.single_post:hidden').slice(0, 3).slideDown();
-        if ($('.single_post:hidden').length == 0) {
-          $('.load').fadeOut('slow');
-        }
-      });
-    </script>
+    <!-- End Footer -->
 
     <!-- Script Bootstrap -->
-    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Jquery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Fancybox Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <!-- Lightbox Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+    <!-- My Js -->
+    <script src="js/script.js"></script>
 
     <!-- Script AOS Source: https://github.com/michalsnik/aos -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script>
       AOS.init({
         once: true,
