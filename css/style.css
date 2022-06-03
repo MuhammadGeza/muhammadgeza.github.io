@@ -278,10 +278,10 @@
 @media screen and (max-width: 480px) {
   .progress-wrap {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
-    height: 30px;
-    width: 30px;
+    right: 30px;
+    bottom: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     display: block;
     border-radius: 50px;
@@ -299,13 +299,13 @@
     font-family: 'unicons';
     content: '\e84b';
     text-align: center;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 20x;
     color: black;
     left: 0;
     top: 0;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     display: block;
     z-index: 1;
@@ -318,16 +318,16 @@
     font-family: 'unicons';
     content: '\e84b';
     text-align: center;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 20px;
     opacity: 0;
     background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     left: 0;
     top: 0;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     cursor: pointer;
     display: block;
     z-index: 2;
