@@ -181,7 +181,6 @@ html {
 
 #projects .single_post {
   display: none;
-  overflow: hidden;
   box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   transition: all linear 0.3s;
