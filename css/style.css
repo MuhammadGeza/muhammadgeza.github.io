@@ -318,8 +318,8 @@
     font-family: 'unicons';
     content: '\e84b';
     text-align: center;
-    line-height: 50px;
-    font-size: 26px;
+    line-height: 30px;
+    font-size: 18px;
     opacity: 0;
     background: #000;
     -webkit-background-clip: text;
