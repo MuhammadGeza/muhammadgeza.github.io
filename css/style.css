@@ -367,14 +367,6 @@ html {
   background-color: #d3d3d3;
 }
 
-.item-fancybox {
-  transition: 0.5s ease-in-out;
-}
-
-.item-fancybox:hover {
-  filter: brightness(80%);
-}
-
 #projects {
   background-color: #d3d3d3;
 }
