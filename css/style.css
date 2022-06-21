@@ -383,7 +383,8 @@ html {
 }
 
 #projects .single_post img {
-  border-radius: 5px;
+  border-radius: 8px;
+  border: 1px solid black;
 }
 
 #projects .single_post p {
